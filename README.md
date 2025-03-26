@@ -5,7 +5,6 @@ This project implements a Dense Passage Retrieval (DPR) model for open-domain qu
 
 [ [CODE](./DPR_OpenDomain_QA.ipynb) | REPORT ]
 
-
 ## Prerequisites
 Before running the project, ensure you have the following installed:
 - Python 3.x
@@ -19,10 +18,16 @@ Before running the project, ensure you have the following installed:
    cd <repository-directory>
    ```
 
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install the required packages. 
+    
+    If using CPU: 
+    ```bash
+    pip install -r requirements_cpu.txt
+    ```
+    If using GPU:
+    ```bash
+    pip install -r requirements_gpu.txt
+    ```
 
 ## Running the Project
 1. Open the Jupyter Notebook:
